@@ -38,7 +38,7 @@
 - Added hash-mode: NetIQ SSPR (SHA-1 with Salt)
 - Added hash-mode: NetIQ SSPR (SHA-256 with Salt)
 - Added hash-mode: NetIQ SSPR (SHA-512 with Salt)
-- Added hash-mode: RSA Security Analytics / NetWitness (sha256)
+- Added hash-mode: NetIQ SSPR (SHA1)
 - Added hash-mode: SecureCRT MasterPassphrase v2
 - Added hash-mode: Veeam VB
 - Added hash-mode: bcrypt(sha256($pass))
@@ -53,7 +53,6 @@
 - Added hash-mode: md5(sha1($pass.$salt))
 - Added hash-mode: md5(sha1($salt.$pass))
 - Added hash-mode: sha512(sha512($pass).$salt)
-- Added hash-mode: sha512(sha512_bin($pass).$salt)
 
 ##
 ## Features
